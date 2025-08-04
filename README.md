@@ -1,6 +1,6 @@
 # Old Phone Simulator
 
-A simple web-based simulation of an old-style mobile phone keypad with T9 text input.
+A simple web-based simulation of an old-style mobile phone keypad with T9 text input. 
 
 ## Features
 
@@ -9,6 +9,8 @@ A simple web-based simulation of an old-style mobile phone keypad with T9 text i
 - Remove last character (Remove button).
 - Clear all input (Clear All button).
 - Simple retro phone UI with clickable keypad buttons.
+
+*This UI aims to give users the feeling of sending text messages the way it was done before smartphones existed.*
 
 ## Demo
 
