@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Old Phone Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loadingScreen" class="loading-screen">
+  <p>Welcome to the past... Press OK to continue.</p>
+  <button id="okBtn">OK</button>
+</div>
+
+  <div class="phone">
+    <div class="screen">
+      <div id="displayText" class="display-text"></div>
+      <div id="menu" class="menu hidden">
+        <ul>
+          <li>1. Contacts</li>
+          <li>2. Messages</li>
+          <li>3. Snake Game</li>
+          <li>4. Settings</li>
+        </ul>
+        <p>Use number keys to select</p>
+      </div>
+    </div>
+    <div class="keypad">
+      <button data-key="1">1</button>
+      <button data-key="2">2<br/><small>ABC</small></button>
+      <button data-key="3">3<br/><small>DEF</small></button>
+      <button data-key="4">4<br/><small>GHI</small></button>
+      <button data-key="5">5<br/><small>JKL</small></button>
+      <button data-key="6">6<br/><small>MNO</small></button>
+      <button data-key="7">7<br/><small>PQRS</small></button>
+      <button data-key="8">8<br/><small>TUV</small></button>
+      <button data-key="9">9<br/><small>WXYZ</small></button>
+      <button data-key="*">*</button>
+      <button data-key="0">0<br/><small>\_/</small></button>
+      <button data-key="#">#</button>
+    </div>
+    <div class="controls">
+      <button id="backBtn">Remove</button>
+      <button id="clearBtn">Clear All</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
