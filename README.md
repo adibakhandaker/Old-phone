@@ -41,13 +41,9 @@ You can view the live demo here:
 - CSS3
 - JavaScript (Vanilla)
 
-## License
-
-This project is open source and available under the MIT License.
-
 ---
 
-Made with ❤️ by [Adiba Khandaker]
+Made with [Adiba Khandaker]
 
 
 
